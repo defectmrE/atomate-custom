@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # atomate-custom
 
 This is a customized version of `atomate` based on the 0.8.8 release. This version includes enhancements for complex defect workflows and magnetic SOC (spin-orbit coupling) workflows.
@@ -28,24 +27,3 @@ This is a customized version of `atomate` based on the 0.8.8 release. This versi
 ### Prerequisites
 
 Ensure you have Python 3.6+ installed. It's recommended to use a virtual environment to manage dependencies.
-
-### Clone the Repository
-
-Clone the repository from GitHub:
-
-```bash
-git clone git@github.com:defectmrE/atomate-custom.git
-cd atomate-custom
-```
-
-Using pip:
-```bash
-pip install .
-```
-Alternatively, using setup.py:
-```bash
-python setup.py install
-```
-=======
-# atomate-custom
->>>>>>> 83ad6b9c35a8a44ebf1dffae3cdcae5f7ef9c8b5
