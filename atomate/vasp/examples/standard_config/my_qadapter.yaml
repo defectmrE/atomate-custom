@@ -1,0 +1,12 @@
+_fw_name: CommonAdapter
+_fw_q_type: SLURM
+rocket_launch: rlaunch -c <<CONFIG_DIR>> singleshot
+nodes: <<NUM_NODES>>
+ntasks_per_node: <<NCORES_PER_NODE>>
+walltime: <<WALLTIME>>
+queue: regular
+account: matgen
+job_name: null
+pre_rocket: null
+post_rocket: null
+logdir: <<LOGDIR or null>>

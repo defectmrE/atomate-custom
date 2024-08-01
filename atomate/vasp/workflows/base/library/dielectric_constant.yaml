@@ -1,0 +1,9 @@
+# Structure optimize + static dielectric constant
+# Author: Anubhav Jain (ajain@lbl.gov)
+fireworks:
+- fw: atomate.vasp.fireworks.core.OptimizeFW
+  params:
+    ediffg: -0.05
+- fw: atomate.vasp.fireworks.core.LepsFW
+  params:
+    parents: 0

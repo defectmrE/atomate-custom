@@ -1,0 +1,18 @@
+# A typical band structure with a BoltzTraP transport calculation
+# Author: Anubhav Jain (ajain@lbl.gov)
+fireworks:
+- fw: atomate.vasp.fireworks.core.OptimizeFW
+- fw: atomate.vasp.fireworks.core.StaticFW
+  params:
+    parents: 0
+- fw: atomate.vasp.fireworks.core.NonSCFFW
+  params:
+    parents: 1
+    mode: uniform
+- fw: atomate.vasp.fireworks.core.NonSCFFW
+  params:
+    parents: 1
+    mode: line
+- fw: atomate.vasp.fireworks.core.BoltztrapFW
+  params:
+    parents: 2
